@@ -3,6 +3,28 @@
   --second-color: #4d5ae5;
   --logo-color: #2e2f42;
 }
+
+p,
+h1,
+h2,
+h3,
+h4.h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
@@ -16,9 +38,21 @@ body {
 .link {
   text-decoration: none;
 }
+
+.section {
+  padding-top: 120px;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 /* -------------------HEADER------------------- */
 .header {
   background-color: #ffffff;
+  padding-top: 24px;
 }
 
 .header-navigation {
@@ -88,6 +122,8 @@ body {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -98,6 +134,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -110,7 +147,6 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
   background-color: #4d5ae5;
 }
 
@@ -197,6 +233,8 @@ body {
 /* -------------------FOOTER------------------- */
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-link {
   font-family: Raleway, sans-serif;
@@ -250,7 +288,6 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
-  cursor: pointer;
 }
 
 .gallery-btn:hover,
