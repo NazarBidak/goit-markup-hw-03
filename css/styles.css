@@ -304,6 +304,7 @@ body {
 
 /* -------------------PORTFOLIO PAGE------------------- */
 .gallery {
+  padding-bottom: 120px;
 }
 .gallery-list-btn {
   display: flex;
