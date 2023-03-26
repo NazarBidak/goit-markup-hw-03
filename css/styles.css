@@ -203,6 +203,7 @@ body {
 
 /* -------------------WORKS------------------- */
 .works {
+  padding-top: 0;
 }
 .works-title {
   font-weight: 700;
